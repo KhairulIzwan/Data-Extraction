@@ -1,0 +1,484 @@
+[
+  { "count" : 1691 }
+, { "name" : "Reformatting CopyNode for Input Tensor 0 to conv1 + conv1_relu + pool1", "timeMs" : 114.85, "averageMs" : 0.0679183, "percentage" : 3.83929 }
+, { "name" : "conv1 + conv1_relu + pool1", "timeMs" : 75.1667, "averageMs" : 0.044451, "percentage" : 2.51273 }
+, { "name" : "res2a_branch2a + res2a_branch2a_relu", "timeMs" : 28.7403, "averageMs" : 0.0169961, "percentage" : 0.960754 }
+, { "name" : "res2a_branch2b + res2a_branch2b_relu", "timeMs" : 51.9197, "averageMs" : 0.0307036, "percentage" : 1.73561 }
+, { "name" : "res2a_branch2c", "timeMs" : 51.5045, "averageMs" : 0.030458, "percentage" : 1.72173 }
+, { "name" : "res2a_branch1 + res2a + res2a_relu", "timeMs" : 63.5439, "averageMs" : 0.0375777, "percentage" : 2.12419 }
+, { "name" : "res2b_branch2a + res2b_branch2a_relu", "timeMs" : 36.6938, "averageMs" : 0.0216995, "percentage" : 1.22663 }
+, { "name" : "res2b_branch2b + res2b_branch2b_relu", "timeMs" : 47.6379, "averageMs" : 0.0281714, "percentage" : 1.59248 }
+, { "name" : "res2b_branch2c + res2b + res2b_relu", "timeMs" : 61.3467, "averageMs" : 0.0362784, "percentage" : 2.05075 }
+, { "name" : "res2c_branch2a + res2c_branch2a_relu", "timeMs" : 35.976, "averageMs" : 0.021275, "percentage" : 1.20263 }
+, { "name" : "res2c_branch2b + res2c_branch2b_relu", "timeMs" : 46.2798, "averageMs" : 0.0273683, "percentage" : 1.54708 }
+, { "name" : "res2c_branch2c + res2c + res2c_relu", "timeMs" : 60.3557, "averageMs" : 0.0356923, "percentage" : 2.01762 }
+, { "name" : "res3a_branch2a + res3a_branch2a_relu", "timeMs" : 27.6212, "averageMs" : 0.0163343, "percentage" : 0.923344 }
+, { "name" : "res3a_branch2b + res3a_branch2b_relu", "timeMs" : 57.617, "averageMs" : 0.0340728, "percentage" : 1.92607 }
+, { "name" : "res3a_branch2c", "timeMs" : 39.091, "averageMs" : 0.0231171, "percentage" : 1.30676 }
+, { "name" : "res3a_branch1 + res3a + res3a_relu", "timeMs" : 79.7808, "averageMs" : 0.0471796, "percentage" : 2.66697 }
+, { "name" : "res3b_branch2a + res3b_branch2a_relu", "timeMs" : 34.8346, "averageMs" : 0.0206, "percentage" : 1.16448 }
+, { "name" : "res3b_branch2b + res3b_branch2b_relu", "timeMs" : 57.8724, "averageMs" : 0.0342238, "percentage" : 1.9346 }
+, { "name" : "res3b_branch2c + res3b + res3b_relu", "timeMs" : 54.3745, "averageMs" : 0.0321552, "percentage" : 1.81767 }
+, { "name" : "res3c_branch2a + res3c_branch2a_relu", "timeMs" : 31.5908, "averageMs" : 0.0186817, "percentage" : 1.05604 }
+, { "name" : "res3c_branch2b + res3c_branch2b_relu", "timeMs" : 52.567, "averageMs" : 0.0310863, "percentage" : 1.75725 }
+, { "name" : "res3c_branch2c + res3c + res3c_relu", "timeMs" : 47.6357, "averageMs" : 0.0281701, "percentage" : 1.5924 }
+, { "name" : "res3d_branch2a + res3d_branch2a_relu", "timeMs" : 30.5845, "averageMs" : 0.0180867, "percentage" : 1.0224 }
+, { "name" : "res3d_branch2b + res3d_branch2b_relu", "timeMs" : 52.3038, "averageMs" : 0.0309307, "percentage" : 1.74845 }
+, { "name" : "res3d_branch2c + res3d + res3d_relu", "timeMs" : 48.4043, "averageMs" : 0.0286247, "percentage" : 1.6181 }
+, { "name" : "res4a_branch2a + res4a_branch2a_relu", "timeMs" : 31.7105, "averageMs" : 0.0187525, "percentage" : 1.06004 }
+, { "name" : "res4a_branch2b + res4a_branch2b_relu", "timeMs" : 71.982, "averageMs" : 0.0425677, "percentage" : 2.40627 }
+, { "name" : "res4a_branch2c", "timeMs" : 43.4074, "averageMs" : 0.0256697, "percentage" : 1.45106 }
+, { "name" : "res4a_branch1 + res4a + res4a_relu", "timeMs" : 54.2442, "averageMs" : 0.0320782, "percentage" : 1.81332 }
+, { "name" : "res4b_branch2a + res4b_branch2a_relu", "timeMs" : 45.5513, "averageMs" : 0.0269375, "percentage" : 1.52272 }
+, { "name" : "res4b_branch2b + res4b_branch2b_relu", "timeMs" : 72.8142, "averageMs" : 0.0430598, "percentage" : 2.43409 }
+, { "name" : "res4b_branch2c + res4b + res4b_relu", "timeMs" : 42.2211, "averageMs" : 0.0249681, "percentage" : 1.4114 }
+, { "name" : "res4c_branch2a + res4c_branch2a_relu", "timeMs" : 38.7108, "averageMs" : 0.0228923, "percentage" : 1.29405 }
+, { "name" : "res4c_branch2b + res4c_branch2b_relu", "timeMs" : 68.3559, "averageMs" : 0.0404234, "percentage" : 2.28506 }
+, { "name" : "res4c_branch2c + res4c + res4c_relu", "timeMs" : 34.3018, "averageMs" : 0.0202849, "percentage" : 1.14667 }
+, { "name" : "res4d_branch2a + res4d_branch2a_relu", "timeMs" : 44.5738, "averageMs" : 0.0263594, "percentage" : 1.49005 }
+, { "name" : "res4d_branch2b + res4d_branch2b_relu", "timeMs" : 75.5191, "averageMs" : 0.0446594, "percentage" : 2.52451 }
+, { "name" : "res4d_branch2c + res4d + res4d_relu", "timeMs" : 35.0878, "averageMs" : 0.0207498, "percentage" : 1.17294 }
+, { "name" : "res4e_branch2a + res4e_branch2a_relu", "timeMs" : 38.3216, "averageMs" : 0.0226621, "percentage" : 1.28104 }
+, { "name" : "res4e_branch2b + res4e_branch2b_relu", "timeMs" : 69.5221, "averageMs" : 0.041113, "percentage" : 2.32404 }
+, { "name" : "res4e_branch2c + res4e + res4e_relu", "timeMs" : 35.2551, "averageMs" : 0.0208487, "percentage" : 1.17853 }
+, { "name" : "res4f_branch2a + res4f_branch2a_relu", "timeMs" : 38.7345, "averageMs" : 0.0229063, "percentage" : 1.29485 }
+, { "name" : "res4f_branch2b + res4f_branch2b_relu", "timeMs" : 68.4372, "averageMs" : 0.0404714, "percentage" : 2.28777 }
+, { "name" : "res4f_branch2c + res4f + res4f_relu", "timeMs" : 34.7023, "averageMs" : 0.0205218, "percentage" : 1.16006 }
+, { "name" : "res5a_branch2a + res5a_branch2a_relu", "timeMs" : 47.7787, "averageMs" : 0.0282547, "percentage" : 1.59718 }
+, { "name" : "res5a_branch2b + res5a_branch2b_relu", "timeMs" : 113.751, "averageMs" : 0.0672685, "percentage" : 3.80256 }
+, { "name" : "res5a_branch2c", "timeMs" : 37.0096, "averageMs" : 0.0218862, "percentage" : 1.23719 }
+, { "name" : "res5a_branch1 + res5a + res5a_relu", "timeMs" : 57.6269, "averageMs" : 0.0340786, "percentage" : 1.9264 }
+, { "name" : "res5b_branch2a + res5b_branch2a_relu", "timeMs" : 61.6153, "averageMs" : 0.0364372, "percentage" : 2.05972 }
+, { "name" : "res5b_branch2b + res5b_branch2b_relu", "timeMs" : 114.317, "averageMs" : 0.0676032, "percentage" : 3.82148 }
+, { "name" : "res5b_branch2c + res5b + res5b_relu", "timeMs" : 35.6256, "averageMs" : 0.0210677, "percentage" : 1.19092 }
+, { "name" : "res5c_branch2a + res5c_branch2a_relu", "timeMs" : 56.9692, "averageMs" : 0.0336897, "percentage" : 1.90441 }
+, { "name" : "res5c_branch2b + res5c_branch2b_relu", "timeMs" : 111.826, "averageMs" : 0.0661302, "percentage" : 3.73821 }
+, { "name" : "res5c_branch2c + res5c + res5c_relu", "timeMs" : 34.2989, "averageMs" : 0.0202832, "percentage" : 1.14657 }
+, { "name" : "pool5", "timeMs" : 22.326, "averageMs" : 0.0132028, "percentage" : 0.746331 }
+, { "name" : "fc1000", "timeMs" : 51.7179, "averageMs" : 0.0305842, "percentage" : 1.72887 }
+, { "name" : "prob", "timeMs" : 14.8271, "averageMs" : 0.00876822, "percentage" : 0.49565 }
+]
+[
+  { "count" : 1234 }
+, { "name" : "Reformatting CopyNode for Input Tensor 0 to conv1 + conv1_relu + pool1", "timeMs" : 91.6837, "averageMs" : 0.0742979, "percentage" : 3.01208 }
+, { "name" : "conv1 + conv1_relu + pool1", "timeMs" : 91.4364, "averageMs" : 0.0740976, "percentage" : 3.00396 }
+, { "name" : "res2a_branch2a + res2a_branch2a_relu", "timeMs" : 29.3443, "averageMs" : 0.0237798, "percentage" : 0.964048 }
+, { "name" : "res2a_branch2b + res2a_branch2b_relu", "timeMs" : 58.6081, "averageMs" : 0.0474944, "percentage" : 1.92545 }
+, { "name" : "res2a_branch2c", "timeMs" : 57.8359, "averageMs" : 0.0468687, "percentage" : 1.90008 }
+, { "name" : "res2a_branch1 + res2a + res2a_relu", "timeMs" : 76.2598, "averageMs" : 0.0617989, "percentage" : 2.50536 }
+, { "name" : "res2b_branch2a + res2b_branch2a_relu", "timeMs" : 44.0631, "averageMs" : 0.0357075, "percentage" : 1.4476 }
+, { "name" : "res2b_branch2b + res2b_branch2b_relu", "timeMs" : 54.7279, "averageMs" : 0.04435, "percentage" : 1.79797 }
+, { "name" : "res2b_branch2c + res2b + res2b_relu", "timeMs" : 75.7186, "averageMs" : 0.0613603, "percentage" : 2.48758 }
+, { "name" : "res2c_branch2a + res2c_branch2a_relu", "timeMs" : 39.3113, "averageMs" : 0.0318568, "percentage" : 1.29149 }
+, { "name" : "res2c_branch2b + res2c_branch2b_relu", "timeMs" : 53.7218, "averageMs" : 0.0435347, "percentage" : 1.76492 }
+, { "name" : "res2c_branch2c + res2c + res2c_relu", "timeMs" : 74.0846, "averageMs" : 0.0600361, "percentage" : 2.4339 }
+, { "name" : "res3a_branch2a + res3a_branch2a_relu", "timeMs" : 28.3008, "averageMs" : 0.0229342, "percentage" : 0.929766 }
+, { "name" : "res3a_branch2b + res3a_branch2b_relu", "timeMs" : 50.9285, "averageMs" : 0.0412711, "percentage" : 1.67316 }
+, { "name" : "res3a_branch2c", "timeMs" : 45.0755, "averageMs" : 0.0365279, "percentage" : 1.48086 }
+, { "name" : "res3a_branch1 + res3a + res3a_relu", "timeMs" : 80.3556, "averageMs" : 0.065118, "percentage" : 2.63992 }
+, { "name" : "res3b_branch2a + res3b_branch2a_relu", "timeMs" : 39.2167, "averageMs" : 0.0317801, "percentage" : 1.28838 }
+, { "name" : "res3b_branch2b + res3b_branch2b_relu", "timeMs" : 51.6365, "averageMs" : 0.0418448, "percentage" : 1.69641 }
+, { "name" : "res3b_branch2c + res3b + res3b_relu", "timeMs" : 59.0776, "averageMs" : 0.0478749, "percentage" : 1.94088 }
+, { "name" : "res3c_branch2a + res3c_branch2a_relu", "timeMs" : 39.114, "averageMs" : 0.0316969, "percentage" : 1.28501 }
+, { "name" : "res3c_branch2b + res3c_branch2b_relu", "timeMs" : 51.4862, "averageMs" : 0.0417231, "percentage" : 1.69148 }
+, { "name" : "res3c_branch2c + res3c + res3c_relu", "timeMs" : 61.0044, "averageMs" : 0.0494363, "percentage" : 2.00418 }
+, { "name" : "res3d_branch2a + res3d_branch2a_relu", "timeMs" : 38.9651, "averageMs" : 0.0315763, "percentage" : 1.28012 }
+, { "name" : "res3d_branch2b + res3d_branch2b_relu", "timeMs" : 54.599, "averageMs" : 0.0442455, "percentage" : 1.79374 }
+, { "name" : "res3d_branch2c + res3d + res3d_relu", "timeMs" : 60.3743, "averageMs" : 0.0489257, "percentage" : 1.98348 }
+, { "name" : "res4a_branch2a + res4a_branch2a_relu", "timeMs" : 24.9635, "averageMs" : 0.0202298, "percentage" : 0.820127 }
+, { "name" : "res4a_branch2b + res4a_branch2b_relu", "timeMs" : 63.766, "averageMs" : 0.0516742, "percentage" : 2.0949 }
+, { "name" : "res4a_branch2c", "timeMs" : 41.0304, "averageMs" : 0.0332499, "percentage" : 1.34797 }
+, { "name" : "res4a_branch1 + res4a + res4a_relu", "timeMs" : 69.4728, "averageMs" : 0.0562989, "percentage" : 2.28239 }
+, { "name" : "res4b_branch2a + res4b_branch2a_relu", "timeMs" : 33.1786, "averageMs" : 0.026887, "percentage" : 1.09002 }
+, { "name" : "res4b_branch2b + res4b_branch2b_relu", "timeMs" : 63.9544, "averageMs" : 0.0518269, "percentage" : 2.10109 }
+, { "name" : "res4b_branch2c + res4b + res4b_relu", "timeMs" : 59.0548, "averageMs" : 0.0478564, "percentage" : 1.94013 }
+, { "name" : "res4c_branch2a + res4c_branch2a_relu", "timeMs" : 33.7664, "averageMs" : 0.0273633, "percentage" : 1.10933 }
+, { "name" : "res4c_branch2b + res4c_branch2b_relu", "timeMs" : 64.2119, "averageMs" : 0.0520356, "percentage" : 2.10955 }
+, { "name" : "res4c_branch2c + res4c + res4c_relu", "timeMs" : 58.8696, "averageMs" : 0.0477063, "percentage" : 1.93404 }
+, { "name" : "res4d_branch2a + res4d_branch2a_relu", "timeMs" : 34.0915, "averageMs" : 0.0276268, "percentage" : 1.12001 }
+, { "name" : "res4d_branch2b + res4d_branch2b_relu", "timeMs" : 64.0105, "averageMs" : 0.0518724, "percentage" : 2.10294 }
+, { "name" : "res4d_branch2c + res4d + res4d_relu", "timeMs" : 59.2991, "averageMs" : 0.0480544, "percentage" : 1.94815 }
+, { "name" : "res4e_branch2a + res4e_branch2a_relu", "timeMs" : 33.8532, "averageMs" : 0.0274337, "percentage" : 1.11218 }
+, { "name" : "res4e_branch2b + res4e_branch2b_relu", "timeMs" : 64.242, "averageMs" : 0.0520599, "percentage" : 2.11054 }
+, { "name" : "res4e_branch2c + res4e + res4e_relu", "timeMs" : 59.0028, "averageMs" : 0.0478143, "percentage" : 1.93842 }
+, { "name" : "res4f_branch2a + res4f_branch2a_relu", "timeMs" : 33.9927, "averageMs" : 0.0275468, "percentage" : 1.11676 }
+, { "name" : "res4f_branch2b + res4f_branch2b_relu", "timeMs" : 64.9036, "averageMs" : 0.0525961, "percentage" : 2.13228 }
+, { "name" : "res4f_branch2c + res4f + res4f_relu", "timeMs" : 61.3793, "averageMs" : 0.0497401, "percentage" : 2.01649 }
+, { "name" : "res5a_branch2a + res5a_branch2a_relu", "timeMs" : 32.9963, "averageMs" : 0.0267393, "percentage" : 1.08403 }
+, { "name" : "res5a_branch2b + res5a_branch2b_relu", "timeMs" : 91.141, "averageMs" : 0.0738582, "percentage" : 2.99425 }
+, { "name" : "res5a_branch2c", "timeMs" : 39.6718, "averageMs" : 0.0321489, "percentage" : 1.30334 }
+, { "name" : "res5a_branch1 + res5a + res5a_relu", "timeMs" : 57.4007, "averageMs" : 0.046516, "percentage" : 1.88578 }
+, { "name" : "res5b_branch2a + res5b_branch2a_relu", "timeMs" : 48.2267, "averageMs" : 0.0390816, "percentage" : 1.58439 }
+, { "name" : "res5b_branch2b + res5b_branch2b_relu", "timeMs" : 90.7306, "averageMs" : 0.0735256, "percentage" : 2.98077 }
+, { "name" : "res5b_branch2c + res5b + res5b_relu", "timeMs" : 43.1439, "averageMs" : 0.0349627, "percentage" : 1.41741 }
+, { "name" : "res5c_branch2a + res5c_branch2a_relu", "timeMs" : 47.6407, "averageMs" : 0.0386067, "percentage" : 1.56514 }
+, { "name" : "res5c_branch2b + res5c_branch2b_relu", "timeMs" : 90.6033, "averageMs" : 0.0734224, "percentage" : 2.97659 }
+, { "name" : "res5c_branch2c + res5c + res5c_relu", "timeMs" : 45.6981, "averageMs" : 0.0370325, "percentage" : 1.50132 }
+, { "name" : "pool5", "timeMs" : 15.6809, "averageMs" : 0.0127074, "percentage" : 0.515166 }
+, { "name" : "fc1000", "timeMs" : 36.0904, "averageMs" : 0.0292467, "percentage" : 1.18568 }
+, { "name" : "prob", "timeMs" : 10.866, "averageMs" : 0.00880547, "percentage" : 0.356979 }
+]
+[
+  { "count" : 831 }
+, { "name" : "Reformatting CopyNode for Input Tensor 0 to conv1 + conv1_relu + pool1", "timeMs" : 62.5747, "averageMs" : 0.0753005, "percentage" : 2.04267 }
+, { "name" : "conv1 + conv1_relu + pool1", "timeMs" : 105.802, "averageMs" : 0.127318, "percentage" : 3.45375 }
+, { "name" : "res2a_branch2a + res2a_branch2a_relu", "timeMs" : 27.2657, "averageMs" : 0.0328108, "percentage" : 0.890053 }
+, { "name" : "res2a_branch2b + res2a_branch2b_relu", "timeMs" : 65.1925, "averageMs" : 0.0784506, "percentage" : 2.12812 }
+, { "name" : "res2a_branch2c", "timeMs" : 66.85, "averageMs" : 0.0804453, "percentage" : 2.18223 }
+, { "name" : "res2a_branch1 + res2a + res2a_relu", "timeMs" : 91.2072, "averageMs" : 0.109756, "percentage" : 2.97734 }
+, { "name" : "res2b_branch2a + res2b_branch2a_relu", "timeMs" : 46.9978, "averageMs" : 0.0565558, "percentage" : 1.53418 }
+, { "name" : "res2b_branch2b + res2b_branch2b_relu", "timeMs" : 62.1737, "averageMs" : 0.074818, "percentage" : 2.02958 }
+, { "name" : "res2b_branch2c + res2b + res2b_relu", "timeMs" : 90.8792, "averageMs" : 0.109361, "percentage" : 2.96663 }
+, { "name" : "res2c_branch2a + res2c_branch2a_relu", "timeMs" : 43.2161, "averageMs" : 0.0520049, "percentage" : 1.41073 }
+, { "name" : "res2c_branch2b + res2c_branch2b_relu", "timeMs" : 63.9257, "averageMs" : 0.0769262, "percentage" : 2.08677 }
+, { "name" : "res2c_branch2c + res2c + res2c_relu", "timeMs" : 90.8787, "averageMs" : 0.109361, "percentage" : 2.96661 }
+, { "name" : "res3a_branch2a + res3a_branch2a_relu", "timeMs" : 34.9896, "averageMs" : 0.0421054, "percentage" : 1.14219 }
+, { "name" : "res3a_branch2b + res3a_branch2b_relu", "timeMs" : 64.2392, "averageMs" : 0.0773035, "percentage" : 2.097 }
+, { "name" : "res3a_branch2c", "timeMs" : 50.5223, "averageMs" : 0.0607969, "percentage" : 1.64923 }
+, { "name" : "res3a_branch1 + res3a + res3a_relu", "timeMs" : 93.8823, "averageMs" : 0.112975, "percentage" : 3.06466 }
+, { "name" : "res3b_branch2a + res3b_branch2a_relu", "timeMs" : 44.9774, "averageMs" : 0.0541244, "percentage" : 1.46823 }
+, { "name" : "res3b_branch2b + res3b_branch2b_relu", "timeMs" : 64.3573, "averageMs" : 0.0774457, "percentage" : 2.10086 }
+, { "name" : "res3b_branch2c + res3b + res3b_relu", "timeMs" : 65.4414, "averageMs" : 0.0787501, "percentage" : 2.13624 }
+, { "name" : "res3c_branch2a + res3c_branch2a_relu", "timeMs" : 43.2502, "averageMs" : 0.0520459, "percentage" : 1.41184 }
+, { "name" : "res3c_branch2b + res3c_branch2b_relu", "timeMs" : 63.0295, "averageMs" : 0.0758478, "percentage" : 2.05751 }
+, { "name" : "res3c_branch2c + res3c + res3c_relu", "timeMs" : 67.6058, "averageMs" : 0.0813548, "percentage" : 2.2069 }
+, { "name" : "res3d_branch2a + res3d_branch2a_relu", "timeMs" : 43.6556, "averageMs" : 0.0525339, "percentage" : 1.42508 }
+, { "name" : "res3d_branch2b + res3d_branch2b_relu", "timeMs" : 63.154, "averageMs" : 0.0759976, "percentage" : 2.06158 }
+, { "name" : "res3d_branch2c + res3d + res3d_relu", "timeMs" : 64.3158, "averageMs" : 0.0773957, "percentage" : 2.0995 }
+, { "name" : "res4a_branch2a + res4a_branch2a_relu", "timeMs" : 23.5562, "averageMs" : 0.0283468, "percentage" : 0.76896 }
+, { "name" : "res4a_branch2b + res4a_branch2b_relu", "timeMs" : 57.7703, "averageMs" : 0.069519, "percentage" : 1.88583 }
+, { "name" : "res4a_branch2c", "timeMs" : 43.92, "averageMs" : 0.052852, "percentage" : 1.43371 }
+, { "name" : "res4a_branch1 + res4a + res4a_relu", "timeMs" : 82.5211, "averageMs" : 0.0993033, "percentage" : 2.69379 }
+, { "name" : "res4b_branch2a + res4b_branch2a_relu", "timeMs" : 30.6736, "averageMs" : 0.0369116, "percentage" : 1.0013 }
+, { "name" : "res4b_branch2b + res4b_branch2b_relu", "timeMs" : 56.2142, "averageMs" : 0.0676464, "percentage" : 1.83504 }
+, { "name" : "res4b_branch2c + res4b + res4b_relu", "timeMs" : 53.6225, "averageMs" : 0.0645277, "percentage" : 1.75044 }
+, { "name" : "res4c_branch2a + res4c_branch2a_relu", "timeMs" : 32.9512, "averageMs" : 0.0396525, "percentage" : 1.07565 }
+, { "name" : "res4c_branch2b + res4c_branch2b_relu", "timeMs" : 58.0577, "averageMs" : 0.0698649, "percentage" : 1.89522 }
+, { "name" : "res4c_branch2c + res4c + res4c_relu", "timeMs" : 52.8684, "averageMs" : 0.0636203, "percentage" : 1.72582 }
+, { "name" : "res4d_branch2a + res4d_branch2a_relu", "timeMs" : 33.4912, "averageMs" : 0.0403023, "percentage" : 1.09327 }
+, { "name" : "res4d_branch2b + res4d_branch2b_relu", "timeMs" : 57.2632, "averageMs" : 0.0689088, "percentage" : 1.86928 }
+, { "name" : "res4d_branch2c + res4d + res4d_relu", "timeMs" : 53.2823, "averageMs" : 0.0641182, "percentage" : 1.73933 }
+, { "name" : "res4e_branch2a + res4e_branch2a_relu", "timeMs" : 32.899, "averageMs" : 0.0395897, "percentage" : 1.07394 }
+, { "name" : "res4e_branch2b + res4e_branch2b_relu", "timeMs" : 57.3315, "averageMs" : 0.068991, "percentage" : 1.87151 }
+, { "name" : "res4e_branch2c + res4e + res4e_relu", "timeMs" : 52.7787, "averageMs" : 0.0635123, "percentage" : 1.72289 }
+, { "name" : "res4f_branch2a + res4f_branch2a_relu", "timeMs" : 32.8262, "averageMs" : 0.039502, "percentage" : 1.07157 }
+, { "name" : "res4f_branch2b + res4f_branch2b_relu", "timeMs" : 57.3179, "averageMs" : 0.0689747, "percentage" : 1.87107 }
+, { "name" : "res4f_branch2c + res4f + res4f_relu", "timeMs" : 52.6886, "averageMs" : 0.0634038, "percentage" : 1.71995 }
+, { "name" : "res5a_branch2a + res5a_branch2a_relu", "timeMs" : 23.6001, "averageMs" : 0.0283996, "percentage" : 0.770393 }
+, { "name" : "res5a_branch2b + res5a_branch2b_relu", "timeMs" : 73.4849, "averageMs" : 0.0884295, "percentage" : 2.39882 }
+, { "name" : "res5a_branch2c", "timeMs" : 40.1549, "averageMs" : 0.0483212, "percentage" : 1.3108 }
+, { "name" : "res5a_branch1 + res5a + res5a_relu", "timeMs" : 62.8695, "averageMs" : 0.0756552, "percentage" : 2.05229 }
+, { "name" : "res5b_branch2a + res5b_branch2a_relu", "timeMs" : 37.7906, "averageMs" : 0.0454761, "percentage" : 1.23362 }
+, { "name" : "res5b_branch2b + res5b_branch2b_relu", "timeMs" : 69.8978, "averageMs" : 0.0841129, "percentage" : 2.28172 }
+, { "name" : "res5b_branch2c + res5b + res5b_relu", "timeMs" : 43.6947, "averageMs" : 0.0525809, "percentage" : 1.42636 }
+, { "name" : "res5c_branch2a + res5c_branch2a_relu", "timeMs" : 37.3413, "averageMs" : 0.0449354, "percentage" : 1.21896 }
+, { "name" : "res5c_branch2b + res5c_branch2b_relu", "timeMs" : 70.2801, "averageMs" : 0.084573, "percentage" : 2.2942 }
+, { "name" : "res5c_branch2c + res5c + res5c_relu", "timeMs" : 42.3763, "averageMs" : 0.0509943, "percentage" : 1.38332 }
+, { "name" : "pool5", "timeMs" : 25.7668, "averageMs" : 0.0310069, "percentage" : 0.841121 }
+, { "name" : "fc1000", "timeMs" : 26.3497, "averageMs" : 0.0317084, "percentage" : 0.86015 }
+, { "name" : "prob", "timeMs" : 7.35972, "averageMs" : 0.00885646, "percentage" : 0.240248 }
+]
+[
+  { "count" : 486 }
+, { "name" : "Reformatting CopyNode for Input Tensor 0 to conv1 + conv1_relu + pool1", "timeMs" : 44.272, "averageMs" : 0.0910946, "percentage" : 1.43208 }
+, { "name" : "conv1 + conv1_relu + pool1", "timeMs" : 111.505, "averageMs" : 0.229434, "percentage" : 3.6069 }
+, { "name" : "res2a_branch2a + res2a_branch2a_relu", "timeMs" : 24.8981, "averageMs" : 0.0512307, "percentage" : 0.805388 }
+, { "name" : "res2a_branch2b + res2a_branch2b_relu", "timeMs" : 68.6647, "averageMs" : 0.141285, "percentage" : 2.22112 }
+, { "name" : "res2a_branch2c", "timeMs" : 71.4858, "averageMs" : 0.14709, "percentage" : 2.31238 }
+, { "name" : "res2a_branch1 + res2a + res2a_relu", "timeMs" : 101.749, "averageMs" : 0.209361, "percentage" : 3.29132 }
+, { "name" : "res2b_branch2a + res2b_branch2a_relu", "timeMs" : 45.0373, "averageMs" : 0.0926692, "percentage" : 1.45684 }
+, { "name" : "res2b_branch2b + res2b_branch2b_relu", "timeMs" : 70.1551, "averageMs" : 0.144352, "percentage" : 2.26933 }
+, { "name" : "res2b_branch2c + res2b + res2b_relu", "timeMs" : 102.477, "averageMs" : 0.210858, "percentage" : 3.31486 }
+, { "name" : "res2c_branch2a + res2c_branch2a_relu", "timeMs" : 44.681, "averageMs" : 0.0919361, "percentage" : 1.44531 }
+, { "name" : "res2c_branch2b + res2c_branch2b_relu", "timeMs" : 67.5694, "averageMs" : 0.139032, "percentage" : 2.18569 }
+, { "name" : "res2c_branch2c + res2c + res2c_relu", "timeMs" : 101.934, "averageMs" : 0.209742, "percentage" : 3.29731 }
+, { "name" : "res3a_branch2a + res3a_branch2a_relu", "timeMs" : 29.7885, "averageMs" : 0.0612932, "percentage" : 0.96358 }
+, { "name" : "res3a_branch2b + res3a_branch2b_relu", "timeMs" : 66.5761, "averageMs" : 0.136988, "percentage" : 2.15356 }
+, { "name" : "res3a_branch2c", "timeMs" : 53.6027, "averageMs" : 0.110294, "percentage" : 1.73391 }
+, { "name" : "res3a_branch1 + res3a + res3a_relu", "timeMs" : 97.2358, "averageMs" : 0.200074, "percentage" : 3.14532 }
+, { "name" : "res3b_branch2a + res3b_branch2a_relu", "timeMs" : 41.7603, "averageMs" : 0.0859266, "percentage" : 1.35084 }
+, { "name" : "res3b_branch2b + res3b_branch2b_relu", "timeMs" : 65.6268, "averageMs" : 0.135035, "percentage" : 2.12286 }
+, { "name" : "res3b_branch2c + res3b + res3b_relu", "timeMs" : 68.9806, "averageMs" : 0.141935, "percentage" : 2.23134 }
+, { "name" : "res3c_branch2a + res3c_branch2a_relu", "timeMs" : 41.6892, "averageMs" : 0.0857803, "percentage" : 1.34854 }
+, { "name" : "res3c_branch2b + res3c_branch2b_relu", "timeMs" : 65.2885, "averageMs" : 0.134338, "percentage" : 2.11191 }
+, { "name" : "res3c_branch2c + res3c + res3c_relu", "timeMs" : 69.1051, "averageMs" : 0.142191, "percentage" : 2.23537 }
+, { "name" : "res3d_branch2a + res3d_branch2a_relu", "timeMs" : 42.9083, "averageMs" : 0.0882887, "percentage" : 1.38797 }
+, { "name" : "res3d_branch2b + res3d_branch2b_relu", "timeMs" : 66.1258, "averageMs" : 0.136061, "percentage" : 2.139 }
+, { "name" : "res3d_branch2c + res3d + res3d_relu", "timeMs" : 67.8259, "averageMs" : 0.13956, "percentage" : 2.19399 }
+, { "name" : "res4a_branch2a + res4a_branch2a_relu", "timeMs" : 25.6183, "averageMs" : 0.0527125, "percentage" : 0.828685 }
+, { "name" : "res4a_branch2b + res4a_branch2b_relu", "timeMs" : 64.5411, "averageMs" : 0.132801, "percentage" : 2.08773 }
+, { "name" : "res4a_branch2c", "timeMs" : 42.9829, "averageMs" : 0.0884422, "percentage" : 1.39039 }
+, { "name" : "res4a_branch1 + res4a + res4a_relu", "timeMs" : 77.4305, "averageMs" : 0.159322, "percentage" : 2.50467 }
+, { "name" : "res4b_branch2a + res4b_branch2a_relu", "timeMs" : 33.8809, "averageMs" : 0.0697138, "percentage" : 1.09596 }
+, { "name" : "res4b_branch2b + res4b_branch2b_relu", "timeMs" : 62.7892, "averageMs" : 0.129196, "percentage" : 2.03107 }
+, { "name" : "res4b_branch2c + res4b + res4b_relu", "timeMs" : 54.2982, "averageMs" : 0.111725, "percentage" : 1.75641 }
+, { "name" : "res4c_branch2a + res4c_branch2a_relu", "timeMs" : 33.6226, "averageMs" : 0.0691823, "percentage" : 1.0876 }
+, { "name" : "res4c_branch2b + res4c_branch2b_relu", "timeMs" : 62.0965, "averageMs" : 0.127771, "percentage" : 2.00866 }
+, { "name" : "res4c_branch2c + res4c + res4c_relu", "timeMs" : 49.5854, "averageMs" : 0.102028, "percentage" : 1.60396 }
+, { "name" : "res4d_branch2a + res4d_branch2a_relu", "timeMs" : 33.8512, "averageMs" : 0.0696526, "percentage" : 1.095 }
+, { "name" : "res4d_branch2b + res4d_branch2b_relu", "timeMs" : 62.2301, "averageMs" : 0.128045, "percentage" : 2.01298 }
+, { "name" : "res4d_branch2c + res4d + res4d_relu", "timeMs" : 49.7345, "averageMs" : 0.102334, "percentage" : 1.60878 }
+, { "name" : "res4e_branch2a + res4e_branch2a_relu", "timeMs" : 33.2124, "averageMs" : 0.0683382, "percentage" : 1.07433 }
+, { "name" : "res4e_branch2b + res4e_branch2b_relu", "timeMs" : 62.8271, "averageMs" : 0.129274, "percentage" : 2.03229 }
+, { "name" : "res4e_branch2c + res4e + res4e_relu", "timeMs" : 50.1261, "averageMs" : 0.10314, "percentage" : 1.62145 }
+, { "name" : "res4f_branch2a + res4f_branch2a_relu", "timeMs" : 33.1584, "averageMs" : 0.0682272, "percentage" : 1.07259 }
+, { "name" : "res4f_branch2b + res4f_branch2b_relu", "timeMs" : 62.6342, "averageMs" : 0.128877, "percentage" : 2.02605 }
+, { "name" : "res4f_branch2c + res4f + res4f_relu", "timeMs" : 49.41, "averageMs" : 0.101667, "percentage" : 1.59828 }
+, { "name" : "res5a_branch2a + res5a_branch2a_relu", "timeMs" : 18.2186, "averageMs" : 0.0374868, "percentage" : 0.589324 }
+, { "name" : "res5a_branch2b + res5a_branch2b_relu", "timeMs" : 61.8284, "averageMs" : 0.127219, "percentage" : 1.99999 }
+, { "name" : "res5a_branch2c", "timeMs" : 38.7662, "averageMs" : 0.0797658, "percentage" : 1.25398 }
+, { "name" : "res5a_branch1 + res5a + res5a_relu", "timeMs" : 68.8331, "averageMs" : 0.141632, "percentage" : 2.22657 }
+, { "name" : "res5b_branch2a + res5b_branch2a_relu", "timeMs" : 30.5945, "averageMs" : 0.0629516, "percentage" : 0.989651 }
+, { "name" : "res5b_branch2b + res5b_branch2b_relu", "timeMs" : 60.5544, "averageMs" : 0.124597, "percentage" : 1.95878 }
+, { "name" : "res5b_branch2c + res5b + res5b_relu", "timeMs" : 49.4277, "averageMs" : 0.101703, "percentage" : 1.59886 }
+, { "name" : "res5c_branch2a + res5c_branch2a_relu", "timeMs" : 32.3109, "averageMs" : 0.0664832, "percentage" : 1.04517 }
+, { "name" : "res5c_branch2b + res5c_branch2b_relu", "timeMs" : 61.7024, "averageMs" : 0.12696, "percentage" : 1.99591 }
+, { "name" : "res5c_branch2c + res5c + res5c_relu", "timeMs" : 50.2859, "averageMs" : 0.103469, "percentage" : 1.62662 }
+, { "name" : "pool5", "timeMs" : 17.2014, "averageMs" : 0.0353938, "percentage" : 0.55642 }
+, { "name" : "fc1000", "timeMs" : 22.4592, "averageMs" : 0.0462124, "percentage" : 0.726497 }
+, { "name" : "prob", "timeMs" : 4.28608, "averageMs" : 0.00881909, "percentage" : 0.138643 }
+]
+[
+  { "count" : 269 }
+, { "name" : "Reformatting CopyNode for Input Tensor 0 to conv1 + conv1_relu + pool1", "timeMs" : 45.6041, "averageMs" : 0.169532, "percentage" : 1.4574 }
+, { "name" : "conv1 + conv1_relu + pool1", "timeMs" : 118.36, "averageMs" : 0.440002, "percentage" : 3.78252 }
+, { "name" : "res2a_branch2a + res2a_branch2a_relu", "timeMs" : 23.3851, "averageMs" : 0.0869333, "percentage" : 0.747331 }
+, { "name" : "res2a_branch2b + res2a_branch2b_relu", "timeMs" : 70.4646, "averageMs" : 0.26195, "percentage" : 2.25188 }
+, { "name" : "res2a_branch2c", "timeMs" : 76.8619, "averageMs" : 0.285732, "percentage" : 2.45632 }
+, { "name" : "res2a_branch1 + res2a + res2a_relu", "timeMs" : 110.796, "averageMs" : 0.41188, "percentage" : 3.54076 }
+, { "name" : "res2b_branch2a + res2b_branch2a_relu", "timeMs" : 46.649, "averageMs" : 0.173416, "percentage" : 1.49079 }
+, { "name" : "res2b_branch2b + res2b_branch2b_relu", "timeMs" : 71.2352, "averageMs" : 0.264815, "percentage" : 2.27651 }
+, { "name" : "res2b_branch2c + res2b + res2b_relu", "timeMs" : 111.021, "averageMs" : 0.412717, "percentage" : 3.54796 }
+, { "name" : "res2c_branch2a + res2c_branch2a_relu", "timeMs" : 46.9426, "averageMs" : 0.174508, "percentage" : 1.50017 }
+, { "name" : "res2c_branch2b + res2c_branch2b_relu", "timeMs" : 70.2265, "averageMs" : 0.261065, "percentage" : 2.24427 }
+, { "name" : "res2c_branch2c + res2c + res2c_relu", "timeMs" : 112.566, "averageMs" : 0.418462, "percentage" : 3.59735 }
+, { "name" : "res3a_branch2a + res3a_branch2a_relu", "timeMs" : 25.5726, "averageMs" : 0.0950654, "percentage" : 0.817239 }
+, { "name" : "res3a_branch2b + res3a_branch2b_relu", "timeMs" : 62.6791, "averageMs" : 0.233008, "percentage" : 2.00308 }
+, { "name" : "res3a_branch2c", "timeMs" : 54.5853, "averageMs" : 0.202919, "percentage" : 1.74442 }
+, { "name" : "res3a_branch1 + res3a + res3a_relu", "timeMs" : 100.729, "averageMs" : 0.374458, "percentage" : 3.21907 }
+, { "name" : "res3b_branch2a + res3b_branch2a_relu", "timeMs" : 37.746, "averageMs" : 0.14032, "percentage" : 1.20627 }
+, { "name" : "res3b_branch2b + res3b_branch2b_relu", "timeMs" : 61.9652, "averageMs" : 0.230354, "percentage" : 1.98026 }
+, { "name" : "res3b_branch2c + res3b + res3b_relu", "timeMs" : 71.2188, "averageMs" : 0.264754, "percentage" : 2.27598 }
+, { "name" : "res3c_branch2a + res3c_branch2a_relu", "timeMs" : 38.6014, "averageMs" : 0.1435, "percentage" : 1.23361 }
+, { "name" : "res3c_branch2b + res3c_branch2b_relu", "timeMs" : 63.9246, "averageMs" : 0.237638, "percentage" : 2.04288 }
+, { "name" : "res3c_branch2c + res3c + res3c_relu", "timeMs" : 71.0496, "averageMs" : 0.264125, "percentage" : 2.27058 }
+, { "name" : "res3d_branch2a + res3d_branch2a_relu", "timeMs" : 37.4151, "averageMs" : 0.13909, "percentage" : 1.1957 }
+, { "name" : "res3d_branch2b + res3d_branch2b_relu", "timeMs" : 62.2404, "averageMs" : 0.231377, "percentage" : 1.98906 }
+, { "name" : "res3d_branch2c + res3d + res3d_relu", "timeMs" : 71.3776, "averageMs" : 0.265344, "percentage" : 2.28106 }
+, { "name" : "res4a_branch2a + res4a_branch2a_relu", "timeMs" : 23.5718, "averageMs" : 0.0876274, "percentage" : 0.753298 }
+, { "name" : "res4a_branch2b + res4a_branch2b_relu", "timeMs" : 63.5915, "averageMs" : 0.2364, "percentage" : 2.03223 }
+, { "name" : "res4a_branch2c", "timeMs" : 42.9143, "averageMs" : 0.159533, "percentage" : 1.37144 }
+, { "name" : "res4a_branch1 + res4a + res4a_relu", "timeMs" : 79.652, "averageMs" : 0.296104, "percentage" : 2.54549 }
+, { "name" : "res4b_branch2a + res4b_branch2a_relu", "timeMs" : 33.7669, "averageMs" : 0.125528, "percentage" : 1.07911 }
+, { "name" : "res4b_branch2b + res4b_branch2b_relu", "timeMs" : 64.366, "averageMs" : 0.239279, "percentage" : 2.05699 }
+, { "name" : "res4b_branch2c + res4b + res4b_relu", "timeMs" : 52.6108, "averageMs" : 0.195579, "percentage" : 1.68132 }
+, { "name" : "res4c_branch2a + res4c_branch2a_relu", "timeMs" : 35.3426, "averageMs" : 0.131385, "percentage" : 1.12946 }
+, { "name" : "res4c_branch2b + res4c_branch2b_relu", "timeMs" : 63.6466, "averageMs" : 0.236605, "percentage" : 2.034 }
+, { "name" : "res4c_branch2c + res4c + res4c_relu", "timeMs" : 52.2428, "averageMs" : 0.194211, "percentage" : 1.66955 }
+, { "name" : "res4d_branch2a + res4d_branch2a_relu", "timeMs" : 36.7161, "averageMs" : 0.136491, "percentage" : 1.17336 }
+, { "name" : "res4d_branch2b + res4d_branch2b_relu", "timeMs" : 63.6967, "averageMs" : 0.236791, "percentage" : 2.03559 }
+, { "name" : "res4d_branch2c + res4d + res4d_relu", "timeMs" : 52.3817, "averageMs" : 0.194727, "percentage" : 1.67399 }
+, { "name" : "res4e_branch2a + res4e_branch2a_relu", "timeMs" : 35.3507, "averageMs" : 0.131415, "percentage" : 1.12973 }
+, { "name" : "res4e_branch2b + res4e_branch2b_relu", "timeMs" : 63.6956, "averageMs" : 0.236787, "percentage" : 2.03556 }
+, { "name" : "res4e_branch2c + res4e + res4e_relu", "timeMs" : 52.7445, "averageMs" : 0.196076, "percentage" : 1.68559 }
+, { "name" : "res4f_branch2a + res4f_branch2a_relu", "timeMs" : 35.7831, "averageMs" : 0.133023, "percentage" : 1.14354 }
+, { "name" : "res4f_branch2b + res4f_branch2b_relu", "timeMs" : 63.6302, "averageMs" : 0.236543, "percentage" : 2.03347 }
+, { "name" : "res4f_branch2c + res4f + res4f_relu", "timeMs" : 52.2886, "averageMs" : 0.194381, "percentage" : 1.67102 }
+, { "name" : "res5a_branch2a + res5a_branch2a_relu", "timeMs" : 18.6579, "averageMs" : 0.0693603, "percentage" : 0.596263 }
+, { "name" : "res5a_branch2b + res5a_branch2b_relu", "timeMs" : 65.5896, "averageMs" : 0.243827, "percentage" : 2.09609 }
+, { "name" : "res5a_branch2c", "timeMs" : 39.0452, "averageMs" : 0.145149, "percentage" : 1.24779 }
+, { "name" : "res5a_branch1 + res5a + res5a_relu", "timeMs" : 67.9237, "averageMs" : 0.252504, "percentage" : 2.17068 }
+, { "name" : "res5b_branch2a + res5b_branch2a_relu", "timeMs" : 32.1018, "averageMs" : 0.119338, "percentage" : 1.0259 }
+, { "name" : "res5b_branch2b + res5b_branch2b_relu", "timeMs" : 64.276, "averageMs" : 0.238944, "percentage" : 2.05411 }
+, { "name" : "res5b_branch2c + res5b + res5b_relu", "timeMs" : 41.7336, "averageMs" : 0.155144, "percentage" : 1.33371 }
+, { "name" : "res5c_branch2a + res5c_branch2a_relu", "timeMs" : 32.5777, "averageMs" : 0.121107, "percentage" : 1.04111 }
+, { "name" : "res5c_branch2b + res5c_branch2b_relu", "timeMs" : 64.4216, "averageMs" : 0.239486, "percentage" : 2.05876 }
+, { "name" : "res5c_branch2c + res5c + res5c_relu", "timeMs" : 41.9565, "averageMs" : 0.155972, "percentage" : 1.34083 }
+, { "name" : "pool5", "timeMs" : 11.6226, "averageMs" : 0.0432066, "percentage" : 0.37143 }
+, { "name" : "fc1000", "timeMs" : 13.6637, "averageMs" : 0.0507943, "percentage" : 0.436659 }
+, { "name" : "Reformatting CopyNode for Input Tensor 0 to prob", "timeMs" : 1.87686, "averageMs" : 0.00697719, "percentage" : 0.0599801 }
+, { "name" : "prob", "timeMs" : 2.48778, "averageMs" : 0.00924824, "percentage" : 0.0795034 }
+]
+[
+  { "count" : 146 }
+, { "name" : "Reformatting CopyNode for Input Tensor 0 to conv1 + conv1_relu + pool1", "timeMs" : 47.8223, "averageMs" : 0.32755, "percentage" : 1.5088 }
+, { "name" : "conv1 + conv1_relu + pool1", "timeMs" : 125.618, "averageMs" : 0.860399, "percentage" : 3.96328 }
+, { "name" : "res2a_branch2a + res2a_branch2a_relu", "timeMs" : 23.4914, "averageMs" : 0.1609, "percentage" : 0.741157 }
+, { "name" : "res2a_branch2b + res2a_branch2b_relu", "timeMs" : 73.0655, "averageMs" : 0.500449, "percentage" : 2.30523 }
+, { "name" : "res2a_branch2c", "timeMs" : 79.8177, "averageMs" : 0.546697, "percentage" : 2.51826 }
+, { "name" : "res2a_branch1 + res2a + res2a_relu", "timeMs" : 118.836, "averageMs" : 0.813948, "percentage" : 3.74931 }
+, { "name" : "res2b_branch2a + res2b_branch2a_relu", "timeMs" : 47.9445, "averageMs" : 0.328387, "percentage" : 1.51266 }
+, { "name" : "res2b_branch2b + res2b_branch2b_relu", "timeMs" : 72.8575, "averageMs" : 0.499024, "percentage" : 2.29867 }
+, { "name" : "res2b_branch2c + res2b + res2b_relu", "timeMs" : 119.673, "averageMs" : 0.819675, "percentage" : 3.77569 }
+, { "name" : "res2c_branch2a + res2c_branch2a_relu", "timeMs" : 48.7347, "averageMs" : 0.333799, "percentage" : 1.53759 }
+, { "name" : "res2c_branch2b + res2c_branch2b_relu", "timeMs" : 72.945, "averageMs" : 0.499623, "percentage" : 2.30143 }
+, { "name" : "res2c_branch2c + res2c + res2c_relu", "timeMs" : 119.381, "averageMs" : 0.817677, "percentage" : 3.76649 }
+, { "name" : "res3a_branch2a + res3a_branch2a_relu", "timeMs" : 23.7875, "averageMs" : 0.162928, "percentage" : 0.750499 }
+, { "name" : "res3a_branch2b + res3a_branch2b_relu", "timeMs" : 63.9618, "averageMs" : 0.438095, "percentage" : 2.01801 }
+, { "name" : "res3a_branch2c", "timeMs" : 57.4314, "averageMs" : 0.393366, "percentage" : 1.81197 }
+, { "name" : "res3a_branch1 + res3a + res3a_relu", "timeMs" : 105.281, "averageMs" : 0.721104, "percentage" : 3.32164 }
+, { "name" : "res3b_branch2a + res3b_branch2a_relu", "timeMs" : 36.5653, "averageMs" : 0.250447, "percentage" : 1.15364 }
+, { "name" : "res3b_branch2b + res3b_branch2b_relu", "timeMs" : 63.2059, "averageMs" : 0.432917, "percentage" : 1.99416 }
+, { "name" : "res3b_branch2c + res3b + res3b_relu", "timeMs" : 76.3074, "averageMs" : 0.522653, "percentage" : 2.40751 }
+, { "name" : "res3c_branch2a + res3c_branch2a_relu", "timeMs" : 36.193, "averageMs" : 0.247897, "percentage" : 1.1419 }
+, { "name" : "res3c_branch2b + res3c_branch2b_relu", "timeMs" : 63.7183, "averageMs" : 0.436427, "percentage" : 2.01033 }
+, { "name" : "res3c_branch2c + res3c + res3c_relu", "timeMs" : 76.4296, "averageMs" : 0.523491, "percentage" : 2.41137 }
+, { "name" : "res3d_branch2a + res3d_branch2a_relu", "timeMs" : 36.2084, "averageMs" : 0.248003, "percentage" : 1.14238 }
+, { "name" : "res3d_branch2b + res3d_branch2b_relu", "timeMs" : 65.366, "averageMs" : 0.447713, "percentage" : 2.06231 }
+, { "name" : "res3d_branch2c + res3d + res3d_relu", "timeMs" : 75.1901, "averageMs" : 0.515, "percentage" : 2.37226 }
+, { "name" : "res4a_branch2a + res4a_branch2a_relu", "timeMs" : 21.3783, "averageMs" : 0.146427, "percentage" : 0.67449 }
+, { "name" : "res4a_branch2b + res4a_branch2b_relu", "timeMs" : 62.6743, "averageMs" : 0.429276, "percentage" : 1.97739 }
+, { "name" : "res4a_branch2c", "timeMs" : 43.2241, "averageMs" : 0.296055, "percentage" : 1.36373 }
+, { "name" : "res4a_branch1 + res4a + res4a_relu", "timeMs" : 83.2089, "averageMs" : 0.569924, "percentage" : 2.62526 }
+, { "name" : "res4b_branch2a + res4b_branch2a_relu", "timeMs" : 33.9105, "averageMs" : 0.232263, "percentage" : 1.06988 }
+, { "name" : "res4b_branch2b + res4b_branch2b_relu", "timeMs" : 61.4292, "averageMs" : 0.420748, "percentage" : 1.9381 }
+, { "name" : "res4b_branch2c + res4b + res4b_relu", "timeMs" : 52.7784, "averageMs" : 0.361496, "percentage" : 1.66517 }
+, { "name" : "res4c_branch2a + res4c_branch2a_relu", "timeMs" : 33.2971, "averageMs" : 0.228062, "percentage" : 1.05053 }
+, { "name" : "res4c_branch2b + res4c_branch2b_relu", "timeMs" : 61.9462, "averageMs" : 0.424289, "percentage" : 1.95441 }
+, { "name" : "res4c_branch2c + res4c + res4c_relu", "timeMs" : 53.278, "averageMs" : 0.364918, "percentage" : 1.68093 }
+, { "name" : "res4d_branch2a + res4d_branch2a_relu", "timeMs" : 32.5025, "averageMs" : 0.22262, "percentage" : 1.02546 }
+, { "name" : "res4d_branch2b + res4d_branch2b_relu", "timeMs" : 62.1691, "averageMs" : 0.425816, "percentage" : 1.96145 }
+, { "name" : "res4d_branch2c + res4d + res4d_relu", "timeMs" : 53.1513, "averageMs" : 0.36405, "percentage" : 1.67693 }
+, { "name" : "res4e_branch2a + res4e_branch2a_relu", "timeMs" : 32.4268, "averageMs" : 0.222101, "percentage" : 1.02307 }
+, { "name" : "res4e_branch2b + res4e_branch2b_relu", "timeMs" : 61.3087, "averageMs" : 0.419922, "percentage" : 1.9343 }
+, { "name" : "res4e_branch2c + res4e + res4e_relu", "timeMs" : 52.9549, "averageMs" : 0.362705, "percentage" : 1.67074 }
+, { "name" : "res4f_branch2a + res4f_branch2a_relu", "timeMs" : 32.508, "averageMs" : 0.222658, "percentage" : 1.02563 }
+, { "name" : "res4f_branch2b + res4f_branch2b_relu", "timeMs" : 61.2439, "averageMs" : 0.419479, "percentage" : 1.93226 }
+, { "name" : "res4f_branch2c + res4f + res4f_relu", "timeMs" : 52.9254, "averageMs" : 0.362503, "percentage" : 1.66981 }
+, { "name" : "res5a_branch2a + res5a_branch2a_relu", "timeMs" : 18.6015, "averageMs" : 0.127408, "percentage" : 0.586881 }
+, { "name" : "res5a_branch2b + res5a_branch2b_relu", "timeMs" : 65.2538, "averageMs" : 0.446944, "percentage" : 2.05877 }
+, { "name" : "res5a_branch2c", "timeMs" : 38.0979, "averageMs" : 0.260945, "percentage" : 1.202 }
+, { "name" : "res5a_branch1 + res5a + res5a_relu", "timeMs" : 67.9475, "averageMs" : 0.465394, "percentage" : 2.14376 }
+, { "name" : "res5b_branch2a + res5b_branch2a_relu", "timeMs" : 34.2877, "averageMs" : 0.234847, "percentage" : 1.08178 }
+, { "name" : "res5b_branch2b + res5b_branch2b_relu", "timeMs" : 65.5352, "averageMs" : 0.448871, "percentage" : 2.06765 }
+, { "name" : "res5b_branch2c + res5b + res5b_relu", "timeMs" : 41.7245, "averageMs" : 0.285784, "percentage" : 1.31641 }
+, { "name" : "res5c_branch2a + res5c_branch2a_relu", "timeMs" : 33.2461, "averageMs" : 0.227713, "percentage" : 1.04892 }
+, { "name" : "res5c_branch2b + res5c_branch2b_relu", "timeMs" : 65.46, "averageMs" : 0.448356, "percentage" : 2.06528 }
+, { "name" : "res5c_branch2c + res5c + res5c_relu", "timeMs" : 41.508, "averageMs" : 0.284302, "percentage" : 1.30959 }
+, { "name" : "pool5", "timeMs" : 9.36854, "averageMs" : 0.0641681, "percentage" : 0.295579 }
+, { "name" : "fc1000", "timeMs" : 7.53254, "averageMs" : 0.0515928, "percentage" : 0.237653 }
+, { "name" : "Reformatting CopyNode for Input Tensor 0 to prob", "timeMs" : 1.29222, "averageMs" : 0.00885085, "percentage" : 0.0407699 }
+, { "name" : "prob", "timeMs" : 1.54861, "averageMs" : 0.0106069, "percentage" : 0.0488589 }
+]
+[
+  { "count" : 76 }
+, { "name" : "Reformatting CopyNode for Input Tensor 0 to conv1 + conv1_relu + pool1", "timeMs" : 49.2647, "averageMs" : 0.64822, "percentage" : 1.53639 }
+, { "name" : "conv1 + conv1_relu + pool1", "timeMs" : 129.481, "averageMs" : 1.7037, "percentage" : 4.03804 }
+, { "name" : "res2a_branch2a + res2a_branch2a_relu", "timeMs" : 23.5233, "averageMs" : 0.309517, "percentage" : 0.733606 }
+, { "name" : "res2a_branch2b + res2a_branch2b_relu", "timeMs" : 74.2654, "averageMs" : 0.977176, "percentage" : 2.31606 }
+, { "name" : "res2a_branch2c", "timeMs" : 83.8197, "averageMs" : 1.10289, "percentage" : 2.61403 }
+, { "name" : "res2a_branch1 + res2a + res2a_relu", "timeMs" : 126.474, "averageMs" : 1.66413, "percentage" : 3.94424 }
+, { "name" : "res2b_branch2a + res2b_branch2a_relu", "timeMs" : 49.1215, "averageMs" : 0.646336, "percentage" : 1.53192 }
+, { "name" : "res2b_branch2b + res2b_branch2b_relu", "timeMs" : 74.0908, "averageMs" : 0.974879, "percentage" : 2.31062 }
+, { "name" : "res2b_branch2c + res2b + res2b_relu", "timeMs" : 125.056, "averageMs" : 1.64547, "percentage" : 3.90002 }
+, { "name" : "res2c_branch2a + res2c_branch2a_relu", "timeMs" : 49.5096, "averageMs" : 0.651442, "percentage" : 1.54402 }
+, { "name" : "res2c_branch2b + res2c_branch2b_relu", "timeMs" : 74.7591, "averageMs" : 0.983672, "percentage" : 2.33146 }
+, { "name" : "res2c_branch2c + res2c + res2c_relu", "timeMs" : 125.134, "averageMs" : 1.64649, "percentage" : 3.90245 }
+, { "name" : "res3a_branch2a + res3a_branch2a_relu", "timeMs" : 23.0492, "averageMs" : 0.303279, "percentage" : 0.71882 }
+, { "name" : "res3a_branch2b + res3a_branch2b_relu", "timeMs" : 65.6942, "averageMs" : 0.864398, "percentage" : 2.04876 }
+, { "name" : "res3a_branch2c", "timeMs" : 59.4333, "averageMs" : 0.782018, "percentage" : 1.85351 }
+, { "name" : "res3a_branch1 + res3a + res3a_relu", "timeMs" : 110.249, "averageMs" : 1.45065, "percentage" : 3.43827 }
+, { "name" : "res3b_branch2a + res3b_branch2a_relu", "timeMs" : 36.1144, "averageMs" : 0.475189, "percentage" : 1.12627 }
+, { "name" : "res3b_branch2b + res3b_branch2b_relu", "timeMs" : 64.2428, "averageMs" : 0.845299, "percentage" : 2.00349 }
+, { "name" : "res3b_branch2c + res3b + res3b_relu", "timeMs" : 77.8768, "averageMs" : 1.02469, "percentage" : 2.42869 }
+, { "name" : "res3c_branch2a + res3c_branch2a_relu", "timeMs" : 35.6466, "averageMs" : 0.469034, "percentage" : 1.11169 }
+, { "name" : "res3c_branch2b + res3c_branch2b_relu", "timeMs" : 64.2051, "averageMs" : 0.844804, "percentage" : 2.00232 }
+, { "name" : "res3c_branch2c + res3c + res3c_relu", "timeMs" : 77.8344, "averageMs" : 1.02414, "percentage" : 2.42737 }
+, { "name" : "res3d_branch2a + res3d_branch2a_relu", "timeMs" : 35.4813, "averageMs" : 0.46686, "percentage" : 1.10653 }
+, { "name" : "res3d_branch2b + res3d_branch2b_relu", "timeMs" : 64.0521, "averageMs" : 0.842791, "percentage" : 1.99755 }
+, { "name" : "res3d_branch2c + res3d + res3d_relu", "timeMs" : 77.602, "averageMs" : 1.02108, "percentage" : 2.42012 }
+, { "name" : "res4a_branch2a + res4a_branch2a_relu", "timeMs" : 20.2392, "averageMs" : 0.266305, "percentage" : 0.631186 }
+, { "name" : "res4a_branch2b + res4a_branch2b_relu", "timeMs" : 61.3758, "averageMs" : 0.807576, "percentage" : 1.91408 }
+, { "name" : "res4a_branch2c", "timeMs" : 43.7467, "averageMs" : 0.575615, "percentage" : 1.3643 }
+, { "name" : "res4a_branch1 + res4a + res4a_relu", "timeMs" : 85.6249, "averageMs" : 1.12664, "percentage" : 2.67033 }
+, { "name" : "res4b_branch2a + res4b_branch2a_relu", "timeMs" : 31.8059, "averageMs" : 0.418498, "percentage" : 0.991908 }
+, { "name" : "res4b_branch2b + res4b_branch2b_relu", "timeMs" : 62.0116, "averageMs" : 0.815942, "percentage" : 1.93391 }
+, { "name" : "res4b_branch2c + res4b + res4b_relu", "timeMs" : 55.1415, "averageMs" : 0.725547, "percentage" : 1.71966 }
+, { "name" : "res4c_branch2a + res4c_branch2a_relu", "timeMs" : 32.4919, "averageMs" : 0.427525, "percentage" : 1.0133 }
+, { "name" : "res4c_branch2b + res4c_branch2b_relu", "timeMs" : 61.554, "averageMs" : 0.809921, "percentage" : 1.91964 }
+, { "name" : "res4c_branch2c + res4c + res4c_relu", "timeMs" : 55.1561, "averageMs" : 0.725738, "percentage" : 1.72011 }
+, { "name" : "res4d_branch2a + res4d_branch2a_relu", "timeMs" : 32.4392, "averageMs" : 0.426831, "percentage" : 1.01166 }
+, { "name" : "res4d_branch2b + res4d_branch2b_relu", "timeMs" : 61.663, "averageMs" : 0.811356, "percentage" : 1.92304 }
+, { "name" : "res4d_branch2c + res4d + res4d_relu", "timeMs" : 55.8248, "averageMs" : 0.734537, "percentage" : 1.74097 }
+, { "name" : "res4e_branch2a + res4e_branch2a_relu", "timeMs" : 32.4112, "averageMs" : 0.426463, "percentage" : 1.01079 }
+, { "name" : "res4e_branch2b + res4e_branch2b_relu", "timeMs" : 62.248, "averageMs" : 0.819053, "percentage" : 1.94129 }
+, { "name" : "res4e_branch2c + res4e + res4e_relu", "timeMs" : 54.8928, "averageMs" : 0.722274, "percentage" : 1.7119 }
+, { "name" : "res4f_branch2a + res4f_branch2a_relu", "timeMs" : 32.6063, "averageMs" : 0.42903, "percentage" : 1.01687 }
+, { "name" : "res4f_branch2b + res4f_branch2b_relu", "timeMs" : 62.0104, "averageMs" : 0.815927, "percentage" : 1.93388 }
+, { "name" : "res4f_branch2c + res4f + res4f_relu", "timeMs" : 55.0843, "averageMs" : 0.724793, "percentage" : 1.71787 }
+, { "name" : "res5a_branch2a + res5a_branch2a_relu", "timeMs" : 17.7997, "averageMs" : 0.234207, "percentage" : 0.555108 }
+, { "name" : "res5a_branch2b + res5a_branch2b_relu", "timeMs" : 61.8505, "averageMs" : 0.813822, "percentage" : 1.92889 }
+, { "name" : "res5a_branch2c", "timeMs" : 36.825, "averageMs" : 0.484539, "percentage" : 1.14844 }
+, { "name" : "res5a_branch1 + res5a + res5a_relu", "timeMs" : 69.8445, "averageMs" : 0.919007, "percentage" : 2.17819 }
+, { "name" : "res5b_branch2a + res5b_branch2a_relu", "timeMs" : 31.9649, "averageMs" : 0.42059, "percentage" : 0.996866 }
+, { "name" : "res5b_branch2b + res5b_branch2b_relu", "timeMs" : 60.9972, "averageMs" : 0.802595, "percentage" : 1.90228 }
+, { "name" : "res5b_branch2c + res5b + res5b_relu", "timeMs" : 41.7805, "averageMs" : 0.549743, "percentage" : 1.30298 }
+, { "name" : "res5c_branch2a + res5c_branch2a_relu", "timeMs" : 30.409, "averageMs" : 0.400118, "percentage" : 0.948344 }
+, { "name" : "res5c_branch2b + res5c_branch2b_relu", "timeMs" : 61.5433, "averageMs" : 0.80978, "percentage" : 1.91931 }
+, { "name" : "res5c_branch2c + res5c + res5c_relu", "timeMs" : 41.8197, "averageMs" : 0.550259, "percentage" : 1.3042 }
+, { "name" : "pool5", "timeMs" : 9.85603, "averageMs" : 0.129685, "percentage" : 0.307373 }
+, { "name" : "fc1000", "timeMs" : 5.37107, "averageMs" : 0.070672, "percentage" : 0.167504 }
+, { "name" : "Reformatting CopyNode for Input Tensor 0 to prob", "timeMs" : 0.934912, "averageMs" : 0.0123015, "percentage" : 0.0291564 }
+, { "name" : "prob", "timeMs" : 1.23229, "averageMs" : 0.0162143, "percentage" : 0.0384305 }
+]
+[
+  { "count" : 40 }
+, { "name" : "Reformatting CopyNode for Input Tensor 0 to conv1 + conv1_relu + pool1", "timeMs" : 51.3385, "averageMs" : 1.28346, "percentage" : 1.54868 }
+, { "name" : "conv1 + conv1_relu + pool1", "timeMs" : 136.026, "averageMs" : 3.40066, "percentage" : 4.10338 }
+, { "name" : "res2a_branch2a + res2a_branch2a_relu", "timeMs" : 24.1771, "averageMs" : 0.604426, "percentage" : 0.729328 }
+, { "name" : "res2a_branch2b + res2a_branch2b_relu", "timeMs" : 77.2726, "averageMs" : 1.93181, "percentage" : 2.33101 }
+, { "name" : "res2a_branch2c", "timeMs" : 91.8233, "averageMs" : 2.29558, "percentage" : 2.76995 }
+, { "name" : "res2a_branch1 + res2a + res2a_relu", "timeMs" : 134.661, "averageMs" : 3.36653, "percentage" : 4.0622 }
+, { "name" : "res2b_branch2a + res2b_branch2a_relu", "timeMs" : 54.0327, "averageMs" : 1.35082, "percentage" : 1.62996 }
+, { "name" : "res2b_branch2b + res2b_branch2b_relu", "timeMs" : 76.9058, "averageMs" : 1.92264, "percentage" : 2.31995 }
+, { "name" : "res2b_branch2c + res2b + res2b_relu", "timeMs" : 133.657, "averageMs" : 3.34143, "percentage" : 4.03192 }
+, { "name" : "res2c_branch2a + res2c_branch2a_relu", "timeMs" : 53.6845, "averageMs" : 1.34211, "percentage" : 1.61945 }
+, { "name" : "res2c_branch2b + res2c_branch2b_relu", "timeMs" : 76.6263, "averageMs" : 1.91566, "percentage" : 2.31152 }
+, { "name" : "res2c_branch2c + res2c + res2c_relu", "timeMs" : 136.195, "averageMs" : 3.40486, "percentage" : 4.10846 }
+, { "name" : "res3a_branch2a + res3a_branch2a_relu", "timeMs" : 25.725, "averageMs" : 0.643125, "percentage" : 0.776023 }
+, { "name" : "res3a_branch2b + res3a_branch2b_relu", "timeMs" : 67.2259, "averageMs" : 1.68065, "percentage" : 2.02794 }
+, { "name" : "res3a_branch2c", "timeMs" : 62.9482, "averageMs" : 1.5737, "percentage" : 1.8989 }
+, { "name" : "res3a_branch1 + res3a + res3a_relu", "timeMs" : 119.535, "averageMs" : 2.98838, "percentage" : 3.60591 }
+, { "name" : "res3b_branch2a + res3b_branch2a_relu", "timeMs" : 37.0882, "averageMs" : 0.927204, "percentage" : 1.11881 }
+, { "name" : "res3b_branch2b + res3b_branch2b_relu", "timeMs" : 67.7861, "averageMs" : 1.69465, "percentage" : 2.04484 }
+, { "name" : "res3b_branch2c + res3b + res3b_relu", "timeMs" : 82.2895, "averageMs" : 2.05724, "percentage" : 2.48235 }
+, { "name" : "res3c_branch2a + res3c_branch2a_relu", "timeMs" : 37.2229, "averageMs" : 0.930574, "percentage" : 1.12287 }
+, { "name" : "res3c_branch2b + res3c_branch2b_relu", "timeMs" : 66.2606, "averageMs" : 1.65651, "percentage" : 1.99882 }
+, { "name" : "res3c_branch2c + res3c + res3c_relu", "timeMs" : 81.6111, "averageMs" : 2.04028, "percentage" : 2.46189 }
+, { "name" : "res3d_branch2a + res3d_branch2a_relu", "timeMs" : 36.1276, "averageMs" : 0.90319, "percentage" : 1.08983 }
+, { "name" : "res3d_branch2b + res3d_branch2b_relu", "timeMs" : 65.9559, "averageMs" : 1.6489, "percentage" : 1.98963 }
+, { "name" : "res3d_branch2c + res3d + res3d_relu", "timeMs" : 80.8046, "averageMs" : 2.02012, "percentage" : 2.43756 }
+, { "name" : "res4a_branch2a + res4a_branch2a_relu", "timeMs" : 20.0174, "averageMs" : 0.500435, "percentage" : 0.603847 }
+, { "name" : "res4a_branch2b + res4a_branch2b_relu", "timeMs" : 62.2087, "averageMs" : 1.55522, "percentage" : 1.87659 }
+, { "name" : "res4a_branch2c", "timeMs" : 45.5263, "averageMs" : 1.13816, "percentage" : 1.37335 }
+, { "name" : "res4a_branch1 + res4a + res4a_relu", "timeMs" : 87.8994, "averageMs" : 2.19749, "percentage" : 2.65158 }
+, { "name" : "res4b_branch2a + res4b_branch2a_relu", "timeMs" : 32.6151, "averageMs" : 0.815378, "percentage" : 0.983871 }
+, { "name" : "res4b_branch2b + res4b_branch2b_relu", "timeMs" : 62.1544, "averageMs" : 1.55386, "percentage" : 1.87496 }
+, { "name" : "res4b_branch2c + res4b + res4b_relu", "timeMs" : 56.4788, "averageMs" : 1.41197, "percentage" : 1.70375 }
+, { "name" : "res4c_branch2a + res4c_branch2a_relu", "timeMs" : 32.5331, "averageMs" : 0.813328, "percentage" : 0.981397 }
+, { "name" : "res4c_branch2b + res4c_branch2b_relu", "timeMs" : 61.8751, "averageMs" : 1.54688, "percentage" : 1.86653 }
+, { "name" : "res4c_branch2c + res4c + res4c_relu", "timeMs" : 56.358, "averageMs" : 1.40895, "percentage" : 1.7001 }
+, { "name" : "res4d_branch2a + res4d_branch2a_relu", "timeMs" : 32.5107, "averageMs" : 0.812768, "percentage" : 0.980722 }
+, { "name" : "res4d_branch2b + res4d_branch2b_relu", "timeMs" : 61.9851, "averageMs" : 1.54963, "percentage" : 1.86985 }
+, { "name" : "res4d_branch2c + res4d + res4d_relu", "timeMs" : 56.4663, "averageMs" : 1.41166, "percentage" : 1.70337 }
+, { "name" : "res4e_branch2a + res4e_branch2a_relu", "timeMs" : 32.463, "averageMs" : 0.811574, "percentage" : 0.979282 }
+, { "name" : "res4e_branch2b + res4e_branch2b_relu", "timeMs" : 61.9332, "averageMs" : 1.54833, "percentage" : 1.86828 }
+, { "name" : "res4e_branch2c + res4e + res4e_relu", "timeMs" : 56.1412, "averageMs" : 1.40353, "percentage" : 1.69356 }
+, { "name" : "res4f_branch2a + res4f_branch2a_relu", "timeMs" : 32.6448, "averageMs" : 0.816119, "percentage" : 0.984766 }
+, { "name" : "res4f_branch2b + res4f_branch2b_relu", "timeMs" : 62.0671, "averageMs" : 1.55168, "percentage" : 1.87232 }
+, { "name" : "res4f_branch2c + res4f + res4f_relu", "timeMs" : 56.1041, "averageMs" : 1.4026, "percentage" : 1.69244 }
+, { "name" : "res5a_branch2a + res5a_branch2a_relu", "timeMs" : 17.4484, "averageMs" : 0.436209, "percentage" : 0.526349 }
+, { "name" : "res5a_branch2b + res5a_branch2b_relu", "timeMs" : 60.5267, "averageMs" : 1.51317, "percentage" : 1.82585 }
+, { "name" : "res5a_branch2c", "timeMs" : 37.4972, "averageMs" : 0.937431, "percentage" : 1.13115 }
+, { "name" : "res5a_branch1 + res5a + res5a_relu", "timeMs" : 71.0581, "averageMs" : 1.77645, "percentage" : 2.14354 }
+, { "name" : "res5b_branch2a + res5b_branch2a_relu", "timeMs" : 30.2608, "averageMs" : 0.756521, "percentage" : 0.912852 }
+, { "name" : "res5b_branch2b + res5b_branch2b_relu", "timeMs" : 60.5374, "averageMs" : 1.51344, "percentage" : 1.82618 }
+, { "name" : "res5b_branch2c + res5b + res5b_relu", "timeMs" : 42.7255, "averageMs" : 1.06814, "percentage" : 1.28886 }
+, { "name" : "res5c_branch2a + res5c_branch2a_relu", "timeMs" : 30.5102, "averageMs" : 0.762756, "percentage" : 0.920375 }
+, { "name" : "res5c_branch2b + res5c_branch2b_relu", "timeMs" : 60.6467, "averageMs" : 1.51617, "percentage" : 1.82947 }
+, { "name" : "res5c_branch2c + res5c + res5c_relu", "timeMs" : 42.2974, "averageMs" : 1.05743, "percentage" : 1.27595 }
+, { "name" : "pool5", "timeMs" : 9.64058, "averageMs" : 0.241014, "percentage" : 0.290819 }
+, { "name" : "fc1000", "timeMs" : 3.01075, "averageMs" : 0.0752688, "percentage" : 0.0908227 }
+, { "name" : "Reformatting CopyNode for Input Tensor 0 to prob", "timeMs" : 0.790592, "averageMs" : 0.0197648, "percentage" : 0.0238491 }
+, { "name" : "prob", "timeMs" : 1.06643, "averageMs" : 0.0266608, "percentage" : 0.0321701 }
+]
