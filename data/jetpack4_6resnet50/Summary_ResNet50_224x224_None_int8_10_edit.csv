@@ -1,0 +1,6 @@
+Format,Caffe
+Prototxt,/home/agx/jetson_benchmarks/models/ResNet50_224x224.prototxt
+Precision,FP32+INT8
+Iteration, 10
+Batch Size,Throughput,Latency(Mean)
+1,532.365 ,"tency: min = 1.74683 ms, max = 2.82562 ms, mean = 1.85079 ms, median = 1.8269 ms, percentile(99%) = 2.4436 "

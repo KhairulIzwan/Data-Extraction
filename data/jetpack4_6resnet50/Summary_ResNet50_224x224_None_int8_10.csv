@@ -1,0 +1,13 @@
+Format,Caffe
+Prototxt,/home/agx/jetson_benchmarks/models/ResNet50_224x224.prototxt
+Precision,FP32+INT8
+Iteration, 10
+Batch Size,Throughput,Latency(Mean)
+1,532.365 ,"tency: min = 1.74683 ms, max = 2.82562 ms, mean = 1.85079 ms, median = 1.8269 ms, percentile(99%) = 2.4436 "
+2,775.199 ,"tency: min = 2.46997 ms, max = 3.58093 ms, mean = 2.55385 ms, median = 2.54102 ms, percentile(99%) = 2.81212 "
+4,1043.51 ,"tency: min = 3.72119 ms, max = 5.02539 ms, mean = 3.8045 ms, median = 3.79059 ms, percentile(99%) = 4.13916 "
+8,1214.74 ,"tency: min = 6.44751 ms, max = 8.03833 ms, mean = 6.55444 ms, median = 6.53531 ms, percentile(99%) = 7.32544 "
+16,1334.89 ,"tency: min = 11.8157 ms, max = 13.7317 ms, mean = 11.9534 ms, median = 11.9238 ms, percentile(99%) = 13.2324 "
+32,1436.16 ,"tency: min = 21.9984 ms, max = 24.3107 ms, mean = 22.2473 ms, median = 22.1932 ms, percentile(99%) = 23.7507 "
+64,1477.32 ,"tency: min = 42.7214 ms, max = 44.9263 ms, mean = 43.2229 ms, median = 43.1553 ms, percentile(99%) = 44.9263 "
+128,1503.22 ,"tency: min = 83.5942 ms, max = 87.7628 ms, mean = 85.0595 ms, median = 84.8992 ms, percentile(99%) = 87.7628 "

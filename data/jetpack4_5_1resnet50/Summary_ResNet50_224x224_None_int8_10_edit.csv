@@ -1,0 +1,6 @@
+Format,Caffe
+Prototxt,/home/intel/jetson_benchmarks/models/ResNet50_224x224.prototxt
+Precision,FP32+INT8
+Iteration, 10
+Batch Size,Throughput,Latency(Mean)
+1,500.639 qps,1.97473 ms (end to end 1.98649 ms
