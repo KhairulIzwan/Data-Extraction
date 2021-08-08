@@ -103,6 +103,7 @@ listHeader = 	[
 		"=== Build Options ===", 
 		"=== Inference Options ===", 
 		"=== Reporting Options ==="
+#		"=== Performance summary ==="
 		]
 boolHeader = matched_lines(args["file"], listHeader)
 if boolHeader:
@@ -118,15 +119,18 @@ line_of_precision = find_line_of_interest(args["file"], 'Precision:', 0)
 line_of_iteration = find_line_of_interest(args["file"], 'Iterations:', 0)
 line_of_batch = find_line_of_interest(args["file"], 'Batch:', 0)
 line_of_throughput = find_line_of_interest(args["file"], 'throughput:', 0)
+#line_of_throughput = find_line_of_interest(args["file"], 'Throughput:', 0)
 line_of_latency = find_line_of_interest(args["file"], 'Host Latency', 3)
+#line_of_latency = find_line_of_interest(args["file"], 'Latency:', 0)
 
 list_of_format = list_of_interest(line_of_format, 34)
 list_of_prototxt = list_of_interest(line_of_prototxt, 36)
 list_of_precision = list_of_interest(line_of_precision, 37)
 list_of_iteration = list_of_interest(line_of_iteration, 38)
-list_of_batch = list_of_interest(line_of_batch, 26)
+list_of_batch = list_of_interest(line_of_batch, 33) #
 list_of_throughput = list_of_interest(line_of_throughput, 38)
 list_of_latency = list_of_interest(line_of_latency, 32)
+#list_of_latency = list_of_interest(line_of_latency, 35)
 
 usedFormat = clean_data(list_of_format, "Format")
 usedPrototxt = clean_data(list_of_prototxt, "Prototxt")
@@ -139,11 +143,11 @@ print("Format: %s" % usedFormat)
 print("Prototxt: %s" % os.path.basename(usedPrototxt))
 print("Precision: %s" % usedPrecision)
 print("Iteration: %s" % usedIteration)
-print("Throughput:")
-print("Host Latency (Mean):")
+print("Batch:\tThroughput:\tHost Latency (Mean)")
+#print("Host Latency (Mean)")
 
 for (i, j, k) in zip(list_of_batch, list_of_throughput, list_of_latency):
-	print("%s: %s :%s" % (i, j, k))
+	print("%s\t%s\t%s" % (i, j, k))
 
 print("*" * 40)
 
@@ -166,7 +170,7 @@ with open(dirPath, mode='w') as extract_file:
 	extract_writer.writerow(["Prototxt", usedPrototxt])
 	extract_writer.writerow(["Precision", usedPrecision])
 	extract_writer.writerow(["Iteration", usedIteration])
-	extract_writer.writerow([" ", "Throughput", "Latency(Mean)"])
+	extract_writer.writerow(["Batch Size", "Throughput", "Latency(Mean)"])
 	
 	for (i, j, k) in zip(list_of_batch, list_of_throughput, list_of_latency):
 		extract_writer.writerow([i, j, k])

@@ -1,0 +1,22 @@
+{
+	"output":
+	[
+		{ 
+			"count" : 1600 
+		}
+		, 
+		{ 
+			"name" : "conv1 + conv1_relu + pool1 input reformatter 0", 
+			"timeMs" : 57.8474, 
+			"averageMs" : 0.0361546, 
+			"percentage" : 1.9085 
+		}
+		, 
+		{ 
+			"name" : "conv1 + conv1_relu + pool1", 
+			"timeMs" : 70.807, 
+			"averageMs" : 0.0442544, 
+			"percentage" : 2.33606 
+		}
+	]
+}
