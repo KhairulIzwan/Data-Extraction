@@ -58,52 +58,52 @@ list_of_batch = batchRegex.findall(Content)
 list_of_throughput = throughputRegex.findall(Content)
 list_of_latency = latencyRegex.findall(Content)
 
-#usedFormat = clean_data(list_of_format, r'Format: \S*')
-#usedPrototxt = clean_data(list_of_prototxt, r'Prototxt: \S*')
-#usedPrecision = clean_data(list_of_precision, r'Precision: \S*')
-#usedIteration = clean_data(list_of_iteration, r'Iterations: \S*')
+usedFormat = clean_data(list_of_format, r'Format: \S*')
+usedPrototxt = clean_data(list_of_prototxt, r'Prototxt: \S*')
+usedPrecision = clean_data(list_of_precision, r'Precision: \S*')
+usedIteration = clean_data(list_of_iteration, r'Iterations: \S*')
 
-#list_of_mean = []
-#for i in list_of_latency:
-#	meanRegex = re.compile(r'mean = \S* ms')
-#	mean = meanRegex.findall(i)
-#	list_of_mean.append(mean[0])
+list_of_mean = []
+for i in list_of_latency:
+	meanRegex = re.compile(r'mean = \S* ms')
+	mean = meanRegex.findall(i)
+	list_of_mean.append(mean[0])
 
-## Summary
-#print("*" * 15 + " SUMMARY " + "*" * 15)
-#print("Format: %s" % usedFormat[8::])
-#print("Prototxt: %s" % os.path.basename(usedPrototxt[10::]))
-#print("Precision: %s" % usedPrecision[11::])
-#print("Iteration: %s" % usedIteration[11::])
-#print("Batch (N):\tThroughput (qps):\tHost Latency -- Mean (ms)")
+# Summary
+print("*" * 15 + " SUMMARY " + "*" * 15)
+print("Format: %s" % usedFormat[8::])
+print("Prototxt: %s" % os.path.basename(usedPrototxt[10::]))
+print("Precision: %s" % usedPrecision[11::])
+print("Iteration: %s" % usedIteration[11::])
+print("Batch (N):\tThroughput (qps):\tLatency -- Mean (ms)")
 
-#for (i, j, k) in zip(list_of_batch, list_of_throughput, list_of_mean):
-#	print("%s\t\t%s\t\t%s" % (i[7::], j[12:-3], k[6:-2]))
+for (i, j, k) in zip(list_of_batch, list_of_throughput, list_of_mean):
+	print("%s\t\t%s\t\t%s" % (i[7::], j[12:-3], k[6:-2]))
 
-#print("*" * 40)
+print("*" * 40)
 
-#path, folder = os.path.split(args["file"])
-#base = os.path.basename(args["file"])
-#now = datetime.now()
-#dt_string = now.strftime("%B %d, %Y %H:%M:%S")
-#newFilename = "Summary" + base[3:-4] + '.csv'
-#dirPath = os.path.sep.join([path, newFilename])
+path, folder = os.path.split(args["file"])
+base = os.path.basename(args["file"])
+now = datetime.now()
+dt_string = now.strftime("%B %d, %Y %H:%M:%S")
+newFilename = "Summary" + base[3:-4] + '.csv'
+dirPath = os.path.sep.join([path, newFilename])
 
-#with open(dirPath, mode='w') as extract_file:
-#	extract_writer = csv.writer(
-#					extract_file, 
-#					delimiter=',', 
-#					quotechar='"', 
-#					quoting=csv.QUOTE_MINIMAL
-#					)
+with open(dirPath, mode='w') as extract_file:
+	extract_writer = csv.writer(
+					extract_file, 
+					delimiter=',', 
+					quotechar='"', 
+					quoting=csv.QUOTE_MINIMAL
+					)
 
-#	extract_writer.writerow(["Format", usedFormat[8::]])
-#	extract_writer.writerow(["Prototxt", usedPrototxt[10::]])
-#	extract_writer.writerow(["Precision", usedPrecision[11::]])
-#	extract_writer.writerow(["Iteration", usedIteration[11::]])
-#	extract_writer.writerow(["Batch Size", "Throughput", "Latency(Mean)"])
-#	
-#	for (i, j, k) in zip(list_of_batch, list_of_throughput, list_of_latency):
-#		extract_writer.writerow([i[7::], j[12:-3], k[6:-2]])
-#		
-#print("[INFO] Extracted files were save in: %s" % newFilename)
+	extract_writer.writerow(["Format", usedFormat[8::]])
+	extract_writer.writerow(["Prototxt", os.path.basename(usedPrototxt[10::])])
+	extract_writer.writerow(["Precision", usedPrecision[11::]])
+	extract_writer.writerow(["Iteration", usedIteration[11::]])
+	extract_writer.writerow(["Batch (N)", "Throughput (qps)", "Latency (Mean) (ms)"])
+	
+	for (i, j, k) in zip(list_of_batch, list_of_throughput, list_of_mean):
+		extract_writer.writerow([i[7::], j[12:-3], k[6:-2]])
+		
+print("[INFO] Extracted files were save in: %s" % newFilename)
